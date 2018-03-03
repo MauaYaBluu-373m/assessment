@@ -41,7 +41,7 @@
     */
     removeAllChildren(tweetDivided);
     const anchor = document.createElement('a');
-    const hrefValue = 'https://twitter.com/intent/tweet?=button_hashtag'
+    const hrefValue = 'https://twitter.com/intent/tweet?button_hashtag='
         + encodeURIComponent('あなたのいいところ')
         + '&ref_src=twsrc%5Etfw';
     anchor.setAttribute('href', hrefValue);
@@ -60,6 +60,7 @@
         }
     };
 
+    
     const answers = [
         '{userName}さんのいいところは声です。{userName}さんの特徴的な声はみなを惹きつけ、心に残ります。',
         '{userName}さんのいいところはまなざしです。{userName}さんに見つめられた人は、気になって仕方がないでしょう。',
@@ -78,7 +79,6 @@
         '{userName}さんのいいところはその全てです。ありのままの{userName}さん自身がいいところなのです。',
         '{userName}さんのいいところは自制心です。やばいと思ったときにしっかりと衝動を抑えられる{userName}さんが皆から評価されています。'
     ];
-    
 
     /**
      *  名前の文字列を渡すと診断結果を返す関数 ⇦メモを残すと、丁寧なコードになる（jsDocという）
