@@ -1,7 +1,7 @@
 body {
-    background-color: #015025;
-    color: #fdffff;
-    width: 359px;
+    background-color: rgb(209, 240, 250);
+    color: #243a5c;
+    width: 360px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -9,10 +9,10 @@ body {
 widthで幅の設定、marginで左右の余白をautoで自動調節にしている。*/
 
 button {
-color: rgb(249, 255, 196);
-    padding: 5px 25px;
+color: rgb(248, 252, 217);
+    padding: 5px 20px;
     background-color: #06408d;
-    border-color: #9cd1f0;
+    border-color: #9cf0d7;
     border-style: double;
 }
 /* paddingは文字と枠の余白の大きさを変えられる。borderは境界線のこと、noneってことは無し。
@@ -20,11 +20,12 @@ dottedは点線、dashedは破線、doubleは二重線
 */
 
 input {
-    height: 20px;
+    height: 25px;
     background: rgb(249, 255, 196);
 }
 
 h1 {
-    border-color: rgb(141, 247, 255);
+    font-family: HiraKakuPro-W6;
+    border-color: rgb(248, 211, 3);
     border-style: dashed;
 }
