@@ -1,0 +1,37 @@
+@media print, screen and (min-width: 640px){
+
+    body {
+        background-color: rgb(209, 240, 250);
+        color: #243a5c;
+        width: 480px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    /* ６桁の１６進数で表す。左から２桁ずつ、赤緑青の量。全てmaxのffffffは白、逆に000000は黒になる。
+    widthで幅の設定、marginで左右の余白をautoで自動調節にしている。*/
+
+    button {
+        font-size: 40px;
+        color: rgb(248, 252, 217);
+        padding: 5px 10px;
+        background-color: #06408d;
+        border-color: #9cf0d7;
+        border-style: double;
+    }
+    /* paddingは文字と枠の余白の大きさを変えられる。borderは境界線のこと、noneってことは無し。
+    dottedは点線、dashedは破線、doubleは二重線
+    */
+
+    input {
+        height: 40px;
+        background: rgb(249, 255, 196);
+    }
+
+    h1 {
+        font-size: 32px;
+        font-family: HiraKakuPro-W6;
+        border-color: rgb(248, 211, 3);
+        border-style: dashed;
+    }
+
+}
